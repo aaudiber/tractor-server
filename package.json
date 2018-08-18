@@ -5,9 +5,7 @@
   "description": "",
   "main": "frontend/index.js",
   "scripts": {
-    "preinstall": "exit -1",
-    "postinstall": "exit -1",
-    "heroku-postbuild": "exit -1 && cargo build --release && npm install && node_modules/webpack/bin/webpack.js",
+    "postinstall": "cargo build --release && npm install && node_modules/webpack/bin/webpack.js",
     "start": "./target/release/tractor-server"
   },
   "devDependencies": {
