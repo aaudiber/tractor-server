@@ -1,4 +1,7 @@
+/node_modules
+/static/assets/bundle.js
 /target
+
 **/*.rs.bk
 *~
 *\#
