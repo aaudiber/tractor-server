@@ -1,5 +1,5 @@
 [package]
-name = "tractor-rust"
+name = "tractor-server"
 version = "0.1.0"
 authors = ["Andrew Audibert <aaudibert10@gmail.com>", "susanwang1015@gmail.com"]
 
