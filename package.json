@@ -5,8 +5,8 @@
   "description": "",
   "main": "frontend/index.js",
   "scripts": {
-    "start": "./target/release/tractor-server",
-    "heroku-postbuild": "exit -1 && cargo build --release && npm install && node_modules/webpack/bin/webpack.js"
+    "heroku-postbuild": "exit -1 && cargo build --release && npm install && node_modules/webpack/bin/webpack.js",
+    "start": "./target/release/tractor-server"
   },
   "devDependencies": {
     "babel-core": "^6.21.0",
