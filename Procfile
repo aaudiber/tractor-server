@@ -1,1 +1,1 @@
-web: ./target/release/tractor-rust
+web: npm start
