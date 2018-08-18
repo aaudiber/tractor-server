@@ -5,7 +5,7 @@
   "description": "",
   "main": "frontend/index.js",
   "scripts": {
-    "preinstall": "cargo build --release"
+    "preinstall": "cargo build --release",
     "start": "./target/release/tractor-server"
   },
   "devDependencies": {
