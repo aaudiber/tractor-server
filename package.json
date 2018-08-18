@@ -6,7 +6,7 @@
   "main": "frontend/index.js",
   "scripts": {
     "start": "./target/release/tractor-server",
-    "build": "cargo build && npm install && node_modules/webpack/bin/webpack.js"
+    "build": "cargo build --release && npm install && node_modules/webpack/bin/webpack.js"
   },
   "devDependencies": {
     "babel-core": "^6.21.0",
