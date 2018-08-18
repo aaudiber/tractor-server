@@ -6,6 +6,7 @@
   "main": "frontend/index.js",
   "scripts": {
     "preinstall": "cargo build --release",
+    "postinstall": "node_modules/webpack/bin/webpack.js",
     "start": "./target/release/tractor-server"
   },
   "devDependencies": {
