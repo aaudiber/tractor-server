@@ -1,5 +1,5 @@
 /node_modules
-/static/assets/bundle.js
+/static/assets/*
 /target
 
 **/*.rs.bk

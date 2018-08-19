@@ -9,12 +9,21 @@
     "start": "./target/release/tractor-server"
   },
   "devDependencies": {
+    "awesome-typescript-loader": "^5.2.0",
     "babel-core": "^6.21.0",
     "babel-loader": "^6.2.10",
     "babel-preset-es2015": "^6.18.0",
     "babel-preset-react": "^6.16.0",
-    "react": "^15.4.2",
-    "react-dom": "^15.4.2",
-    "webpack": "^1.14.0"
+    "react": "^15.6.2",
+    "react-dom": "^15.6.2",
+    "source-map-loader": "^0.2.4",
+    "typescript": "^3.0.1",
+    "webpack-cli": "^3.1.0"
+  },
+  "dependencies": {
+    "@types/react": "^16.4.11",
+    "@types/react-dom": "^16.0.7",
+    "enhanced-resolve": "^4.1.0",
+    "webpack": "^4.16.5"
   }
 }
